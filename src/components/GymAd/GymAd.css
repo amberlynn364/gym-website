@@ -1,0 +1,26 @@
+.gym-ad {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  background-color: #363d42;
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  color: white;
+}
+.gym-ad>span {
+  z-index: 2;
+}
+
+.gym-ad>div {
+  position: absolute;
+  left: 8px;
+  width: 5.4rem;
+  height: 80%;
+  border-radius: 3rem;
+  background-color: var(--orange);
+  z-index: 1;
+}
