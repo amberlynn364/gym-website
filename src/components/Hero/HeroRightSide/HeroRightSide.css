@@ -1,0 +1,12 @@
+.right-side {
+  position: relative;
+  flex: 1;
+  background-color: var(--orange);
+}
+
+.right-side>.btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
