@@ -5,8 +5,8 @@ import hero_image_back from '../../../../assets/hero_image_back.png';
 const HeroImages = () => {
   return (
     <>
-      <img src={hero_image} alt="" className='hero-image' />
-      <img src={hero_image_back} alt="" className='hero-image-back' />
+      <img src={hero_image} alt="hero" className='hero-image' />
+      <img src={hero_image_back} alt="hero-back" className='hero-image-back' />
     </>
   )
 }
