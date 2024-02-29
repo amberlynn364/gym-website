@@ -3,6 +3,7 @@ import github from '../../assets/github.png'
 import instagram from '../../assets/instagram.png'
 import linkedin from '../../assets/linkedin.png'
 import logo from '../../assets/logo.png'
+import Blur from '../Blur/Blur';
 
 const Footer = () => {
   return (
@@ -18,8 +19,8 @@ const Footer = () => {
           <img src={logo} alt="gym-logo" />
         </div>
       </footer>
-      <div className="blur footer-blur-1"></div>
-      <div className="blur footer-blur-2"></div>
+      <Blur className={'footer-blur-right-side'} />
+      <Blur className={'footer-blur-left-side'} />
     </div>
   )
 }
