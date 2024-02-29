@@ -1,0 +1,5 @@
+.reasons {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}

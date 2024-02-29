@@ -1,0 +1,21 @@
+
+.right-side-reasons {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+
+.right-side-reasons > span {
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.right-side-reasons > div {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
