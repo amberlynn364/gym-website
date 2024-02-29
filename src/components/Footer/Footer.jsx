@@ -18,6 +18,8 @@ const Footer = () => {
           <img src={logo} alt="gym-logo" />
         </div>
       </footer>
+      <div className="blur footer-blur-1"></div>
+      <div className="blur footer-blur-2"></div>
     </div>
   )
 }
