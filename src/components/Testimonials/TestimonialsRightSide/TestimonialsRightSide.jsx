@@ -6,7 +6,7 @@ import './TestimonialsRightSide.css';
 const TestimonialsRightSide = ({ image, testimonialsLength, selected, setSelected }) => {
   return (
     <div className="right-t">
-      <TestimonialAvatar image={image} />
+      <TestimonialAvatar image={image} selected={selected} />
       <TestimonialsArrows
         selected={selected}
         setSelected={setSelected}

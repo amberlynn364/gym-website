@@ -1,0 +1,1 @@
+export const TRANSITION = { type: 'spring', duration: 3 };

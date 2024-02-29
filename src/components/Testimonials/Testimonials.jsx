@@ -15,6 +15,7 @@ const Testimonials = () => {
         review={review}
         name={name}
         status={status}
+        selected={selected}
       />
       <TestimonialsRightSide
         image={image}

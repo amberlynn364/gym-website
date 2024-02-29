@@ -2,7 +2,7 @@ import Testimonial from './Testimonial/Testimonial';
 import TestimonialsHeader from './TestimonialsHeader/TestimonialsHeader';
 import './TestimonialsLeftSide.css';
 
-const TestimonialsLeftSide = ({ review, name, status }) => {
+const TestimonialsLeftSide = ({ review, name, status, selected }) => {
   return (
     <div className="left-t">
       <TestimonialsHeader />
@@ -10,6 +10,7 @@ const TestimonialsLeftSide = ({ review, name, status }) => {
         review={review}
         name={name}
         status={status}
+        selected={selected}
       />
     </div>
   )
