@@ -33,3 +33,19 @@
 .calories > div > span {
   white-space: nowrap;
 }
+
+@media screen and (max-width: 768px) {
+  .calories {
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+  }
+
+  .calories > img {
+    width: 2rem;
+  }
+
+  .calories > div > :nth-child(2) {
+    font-size: 1rem;
+  }
+}
