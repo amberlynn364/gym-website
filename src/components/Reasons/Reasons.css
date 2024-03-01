@@ -3,3 +3,9 @@
   gap: 2rem;
   padding: 0 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+  }
+}

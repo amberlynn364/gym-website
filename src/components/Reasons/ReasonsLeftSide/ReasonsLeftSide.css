@@ -34,3 +34,29 @@
   grid-row: 2;
   grid-column: 3/4;
 }
+
+@media screen and (max-width: 768px) {
+  .left-side-reasons {
+    grid-auto-flow: auto;
+    overflow: hidden;
+  }
+
+  .left-side-reasons > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+
+  .left-side-reasons > :nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .left-side-reasons > :nth-child(3) {
+    width: 7rem;
+  }
+
+  .left-side-reasons > :nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+  }
+}
