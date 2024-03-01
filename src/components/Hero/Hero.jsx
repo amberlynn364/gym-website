@@ -5,7 +5,7 @@ import HeroRightSide from './HeroRightSide/HeroRightSide';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id='home'>
       <Blur className={'hero-blur'} />
       <HeroLeftSide />
       <HeroRightSide />

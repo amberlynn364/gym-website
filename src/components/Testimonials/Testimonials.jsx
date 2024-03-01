@@ -10,7 +10,7 @@ const Testimonials = () => {
   const testimonialsLength = testimonialsData.length;
   const { review, name, status, image } = testimonialsData[selected];
   return (
-    <section className='testiomonials'>
+    <section className='testiomonials' id='testimonials'>
       <TestimonialsLeftSide
         review={review}
         name={name}
