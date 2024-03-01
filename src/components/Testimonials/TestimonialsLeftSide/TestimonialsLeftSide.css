@@ -24,3 +24,10 @@
   letter-spacing: 2px;
   line-height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .left-t > :nth-child(2),
+  .left-t > :nth-child(2) {
+    font-size: xx-large;
+  }
+}
