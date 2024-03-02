@@ -1,0 +1,19 @@
+.right-side {
+  position: relative;
+  flex: 1;
+  background-color: var(--orange);
+}
+
+.right-side>.btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .right-side {
+    position: relative;
+    background: none;
+  }
+}

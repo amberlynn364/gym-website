@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-blur {
+    width: 14rem;
+  }
+}

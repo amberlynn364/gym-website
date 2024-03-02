@@ -1,0 +1,11 @@
+.testiomonials {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .testiomonials {
+    flex-direction: column;
+  }
+}
